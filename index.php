@@ -37,7 +37,7 @@ include("database/database.php");
             <hr>
             <ul class="list">
             <?php
-                    $listList=get_items_checked();
+                    $listList = get_items_checked();
                     while($row=mysqli_fetch_assoc($listList))
                     {
                 ?>
